@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(243, 229, 76);
+
+}
+
+header h1 {
+    font-family: 'Smokum', cursive;
+}
+body, input, textarea{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container img {
+    height: 400px
+
+}
+
+.brants-list img {
+    height: 70px;
+}
+
+.brants-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+section p {
+    margin-bottom: 8px;
+    font-family: 'Merriweather', serif;
+}
+
+section img {
+
+    margin-right: 32px;
+}
+
+.store-front img {
+    margin-right: 32px;
+}
+
+.social_links img {
+    height: 24px;
+}
+
+.social_links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social_links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display:block;
+}
+
+.contac-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+   
+    background-color: rgb(242, 232, 128);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(231, 229, 145);
+}
+
+input:focus, textarea:focus {
+    outline-color: blueviolet;
+}
+
+footer {
+    background-color: rgb(243, 229, 76);
+    color: black;
+    padding: 16px 0;
+}
